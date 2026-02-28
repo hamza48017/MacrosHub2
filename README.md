@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MacrosHub — Undedectable Minecraft PvP Macros</title>
+
+<style>
+:root{
+  --bg:#0b1220;
+  --card:#101a33;
+  --muted:#9fb0d0;
+  --text:#eaf0ff;
+  --accent:#6ea8ff;
+  --accent2:#7cffc7;
+  --border:rgba(255,255,255,.08);
+  --shadow: 0 12px 30px rgba(0,0,0,.35);
+  --radius:18px;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: ui-sans-serif, system-ui;
+  background: radial-gradient(1200px 600px at 20% 10%, rgba(110,168,255,.18), transparent 60%),
+              radial-gradient(1000px 600px at 80% 0%, rgba(124,255,199,.12), transparent 55%),
+              var(--bg);
+  color:var(--text);
+}
+.wrap{max-width:1100px;margin:auto;padding:28px 18px 60px;}
+header{display:flex;justify-content:space-between;align-items:center;padding-bottom:25px;}
+
+.brand{
+  display:flex;
+  gap:14px;
+  align-items:center;
+  text-decoration:none;
+  color:white;
+}
+
+.brand img{
+  width:55px;
+  height:55px;
+  border-radius:12px;
+  /* recolor to match theme */
+  filter: hue-rotate(190deg) saturate(1.4) brightness(1.1);
+}
+
+.brand-text small{
+  color:var(--muted);
+  font-size:13px;
+}
+
+.btn{
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.05);
+  padding:10px 14px;
+  border-radius:12px;
+  color:white;
+  font-weight:600;
+  text-decoration:none;
+  cursor:pointer;
+  transition:0.2s;
+}
+.btn.primary{
+  background:linear-gradient(135deg,rgba(110,168,255,.9),rgba(124,255,199,.7));
+  color:#081126;
+  border:none;
+}
+.btn:hover{transform:translateY(-2px)}
+
+.section-title{margin:30px 0 10px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;}
+
+.card{
+  background:var(--card);
+  padding:18px;
+  border-radius:var(--radius);
+  border:1px solid var(--border);
+  box-shadow:var(--shadow);
+}
+
+.price{font-size:30px;margin:8px 0;}
+.mini-price{font-size:20px;margin:6px 0;}
+.desc{color:var(--muted);margin-bottom:12px;}
+
+.hero{margin-bottom:30px;}
+.hero h1{margin:0;font-size:36px;}
+.hero p{color:var(--muted);margin-top:8px;}
+
+footer{
+  margin-top:40px;
+  border-top:1px solid var(--border);
+  padding-top:15px;
+  color:var(--muted);
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<header>
+<a class="brand" href="#">
+  <!-- Replace logo.png with your uploaded file name -->
+  <img src="Adobe Express - file (1).png" alt="MacrosHub Logo">
+  <div class="brand-text">
+    <strong style="font-size:20px;">MacrosHub</strong><br>
+    <small>Undedectable Minecraft PvP Macros</small>
+  </div>
+</a>
+
+<a class="btn primary" href="https://discord.gg/S6h83d32VH" target="_blank">
+Join Discord
+</a>
+</header>
+
+<div class="hero">
+<h1>Win More Fights. React Faster.</h1>
+<p>Premium Minecraft PvP macros built for speed, timing and consistency.</p>
+</div>
+
+<!-- Minecraft -->
+<div class="section-title">
+<h2>Minecraft Account</h2>
+</div>
+
+<div class="grid">
+<div class="card">
+<div class="price">€15</div>
+<p class="desc">
+Permanent full access official Minecraft account.
+</p>
+<a class="btn primary" href="https://discord.gg/S6h83d32VH" target="_blank">
+Buy Now
+</a>
+</div>
+</div>
+
+<!-- Combo Pack -->
+<div class="section-title">
+<h2>Macro Combo Pack</h2>
+</div>
+
+<div class="grid">
+<div class="card">
+<div class="price">€15</div>
+<p class="desc">
+Get all 7 macros in one pack for maximum advantage.
+</p>
+<a class="btn primary" href="https://discord.gg/S6h83d32VH" target="_blank">
+Buy Now
+</a>
+</div>
+</div>
+
+<!-- Individual Macros -->
+<div class="section-title">
+<h2>Individual Macros (€5 each)</h2>
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>Auto Hit Crystal Macro</h3>
+<div class="mini-price">€5</div>
+<p class="desc">
+Helps you chain crystal hits with cleaner rhythm so you can keep pressure without missing timing.
+</p>
+<a class="btn primary" href="https://discord.gg/S6h83d32VH" target="_blank">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>SafeAnchor Macro</h3>
+<div class="mini-price">€5</div>
+<p class="desc">
+Improves anchor placement + detonation flow with safer pacing so you don’t fumble in tight fights.
+</p>
+<a class="btn primary" href="https://discord.gg/S6h83d32VH" target="_blank">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>AutoStunSlam Macro</h3>
+<div class="mini-price">€5</div>
+<p class="desc">
+Automates a quick stun → slam sequence so your combo feels smoother and harder to escape.
+</p>
+<a class="btn primary" href="https://discord.gg/S6h83d32VH" target="_blank">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>Cart Macro</h3>
+<div class="mini-price">€5</div>
+<p class="desc">
+Place carts quickly remove un-necessary delay
+</p>
+<a class="btn primary" href="https://discord.gg/S6h83d32VH" target="_blank">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>WindChargePearl Macro</h3>
+<div class="mini-price">€5</div>
+<p class="desc">
+Automatically thorw pearls and windcharge quickly
+</p>
+<a class="btn primary" href="https://discord.gg/S6h83d32VH" target="_blank">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>BreachSwap Macro</h3>
+<div class="mini-price">€5</div>
+<p class="desc">
+quickly swap Mace and sword providing you upperhand in Tl fights
+</p>
+<a class="btn primary" href="https://discord.gg/S6h83d32VH" target="_blank">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>Stun Macro</h3>
+<div class="mini-price">€5</div>
+<p class="desc">
+A dedicated stun timing macro built to hit the window reliably when fights get chaotic.
+</p>
+<a class="btn primary" href="https://discord.gg/S6h83d32VH" target="_blank">Buy Now</a>
+</div>
+
+</div>
+
+<footer>
+© 2026 MacrosHub — All purchases handled via Discord
+</footer>
+
+</div>
+</body>
+</html>
